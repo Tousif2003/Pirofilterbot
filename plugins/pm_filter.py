@@ -28,6 +28,7 @@ from database.gfilters_mdb import (
     get_gfilters,
     del_allg
 )
+req_channel = int(os.environ.get('REQ_CHANNEL','-1001911075195'))
 import logging
 
 logger = logging.getLogger(__name__)
